@@ -1,0 +1,16 @@
+.person {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--secondary-color);
+    }
+
+    &__label {
+        font-weight: bold;
+        font-size: 16px;
+        color: var(--tertiary-color);
+    }
+}

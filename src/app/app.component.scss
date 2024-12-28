@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__label {
+        margin-bottom: 10px;
+        display: block;
+        min-width: 300px;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
+
+.people-list {
+    width: 100%;
+    height: 800px;
+
+    &__loading,
+    &__error {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &__error {
+        color: var(--danger-color);
+    }
+
+    &__count {
+        align-self: flex-start;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+}

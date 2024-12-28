@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --secondary-color: rgb(0, 119, 255);
+    --primary-color: #6c757d;
+    --tertiary-color: #000;
+    --danger-color: red;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.cdk-overlay-pane {
+    background-color: #fff;
+}

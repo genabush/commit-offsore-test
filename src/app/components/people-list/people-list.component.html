@@ -1,0 +1,7 @@
+<ul class="people-list">
+  @for (person of people(); track person.name) {
+  <li class="people-list__item">
+    <app-person [person]="person"></app-person>
+  </li>
+  }
+</ul>
